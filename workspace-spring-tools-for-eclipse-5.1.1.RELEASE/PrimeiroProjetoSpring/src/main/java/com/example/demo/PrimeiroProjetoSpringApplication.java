@@ -15,13 +15,13 @@ public class PrimeiroProjetoSpringApplication {
 	
 		@PostMapping("/contato")
 		public String criarContato() {
-			return " Conatato criado com sucesso !";
+			return " Contato criado com sucesso !";
 		}
 		
 		
 		@GetMapping("/visualizar")
 		public String verContato() {
-			return " Conatato visualizado com sucesso !";
+			return " Contato visualizado com sucesso !";
 		}
 		
 		@DeleteMapping("/deletar")
