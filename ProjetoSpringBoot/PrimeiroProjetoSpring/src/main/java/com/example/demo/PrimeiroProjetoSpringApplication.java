@@ -17,7 +17,7 @@ public class PrimeiroProjetoSpringApplication {
 	
 		@PostMapping("/contato")
 		public String criarContato() {
-			return " Contato criado com sucesso !";
+			return " Contato criado com sucesso-teste!";
 		}
 		
 		
